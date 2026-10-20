@@ -84,4 +84,3 @@ flowchart TD
 - `POS_EXCLUIR_LINHA_INTEIRA = True` em `modPosImport` exclui linhas inteiras. Reexecutar pode deslocar as linhas da fonte `W11:W56`.
 - `modEsperaBanco` aguarda até 20 s. Se o banco estiver lento, a aba é ignorada, e o aviso aparece no log do Debug, não em caixa de mensagem.
 - `modTestes.ExecutarTestes` deve ser rodado após qualquer mudança em conversão, substituição ou peso.
-- Há bugs conhecidos no modelo que vale revisar: `A54` e `A55` referenciam `T53`/`T54`, e `E61` aponta para o cabeçalho `DE_observacao` (`AG11`).

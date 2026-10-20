@@ -1,0 +1,15 @@
+# Planilhas e dados reais de romaneio/pedidos
+*.xlsx
+*.xlsm
+*.xlsb
+*.xls
+*.csv
+*.rar
+*.zip
+
+# Arquivos gerados pelo Excel
+~$*
+*.tmp
+
+# Configurações locais
+config.local.*
